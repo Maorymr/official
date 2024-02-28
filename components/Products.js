@@ -1,15 +1,16 @@
 import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 
-function App({ Component, pageProps }) {
+function Jamis({ Component, pageProps }) {
   return (
     <>
+    <ComponantProducts></ComponantProducts>
       <Head>
-        <title>Next.js App</title>
+        <title>RevMédia</title>
       </Head>
       <Component {...pageProps} />
     </>
   );
 }
 
-export default App;
+export default Jamis;

@@ -1,22 +1,61 @@
 .main {
+  background-color: rgba(231, 231, 218, 0.514);
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   min-height: 100vh;
   padding: 4rem 0;
 }
 
+.barre {
+  background-color: rgba(49, 8, 233, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+}
 .title {
-  line-height: 1.15;
-  font-size: 4rem;
+  background-color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+
+.account {
+background-color: rebeccapurple;
 }
 
-.title a:hover, .title a:focus, .title a:active {
-  text-decoration: underline;
+
+.page {
+  background-color: red;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 10px; 
+  margin-left: 10px;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:30px;
+  width: 600px; 
+  height: 30px;
+  background-color: gold;
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.glass {
+  position: absolute;
+
+  top: 10px;
+  left: 10px;
 }
